@@ -25,3 +25,9 @@ it uses less pixels, trashing all the computation that is needed for the high mo
 
 
 Im not exceptionaly familliar with any of them, and whats actually behind that sweet "abtract" idea.
+
+# The metric
+
+In the end, from an speed run standpoint keeping the quality of knowledge, not the hours shall
+be seen as the metric of how fast i got there, but the time span between starting and ending
+(probably days). And then the hours/days should be an good metric.
