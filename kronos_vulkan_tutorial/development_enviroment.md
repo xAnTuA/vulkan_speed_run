@@ -25,4 +25,5 @@ also i will use glfw (because its pretty straigh forward), glm, cmake, ninja, cl
 
 
 
-currently fighting with modules, and importing std
+I had bad time figuring out how to correctly import std lib. And i landed of creating std.pcm,
+and attaching it on build
