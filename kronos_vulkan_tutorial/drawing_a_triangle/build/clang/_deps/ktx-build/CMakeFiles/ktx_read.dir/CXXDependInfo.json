@@ -1,0 +1,62 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-build",
+	"dir-cur-src" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src",
+	"dir-top-bld" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang",
+	"dir-top-src" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps/ktx-src/include",
+		"_deps/ktx-src/external/basisu/transcoder",
+		"_deps/ktx-src/external",
+		"_deps/ktx-src/external/basisu/zstd",
+		"_deps/ktx-src/utils",
+		"_deps/ktx-src/external/dfdutils",
+		"_deps/ktx-src/external/astc-encoder/Source",
+		"_deps/ktx-src/other_include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-build/CMakeFiles/ktx_read.dir",
+	"sources" : 
+	{
+		"_deps/ktx-build/CMakeFiles/ktx_read.dir/external/basisu/transcoder/basisu_transcoder.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/external/basisu/transcoder/basisu_transcoder.cpp"
+		},
+		"_deps/ktx-build/CMakeFiles/ktx_read.dir/external/etcdec/etcdec.cxx.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/external/etcdec/etcdec.cxx"
+		},
+		"_deps/ktx-build/CMakeFiles/ktx_read.dir/lib/astc_codec.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/lib/astc_codec.cpp"
+		},
+		"_deps/ktx-build/CMakeFiles/ktx_read.dir/lib/basis_transcode.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/lib/basis_transcode.cpp"
+		},
+		"_deps/ktx-build/CMakeFiles/ktx_read.dir/lib/etcunpack.cxx.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/lib/etcunpack.cxx"
+		},
+		"_deps/ktx-build/CMakeFiles/ktx_read.dir/lib/miniz_wrapper.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/lib/miniz_wrapper.cpp"
+		}
+	}
+}

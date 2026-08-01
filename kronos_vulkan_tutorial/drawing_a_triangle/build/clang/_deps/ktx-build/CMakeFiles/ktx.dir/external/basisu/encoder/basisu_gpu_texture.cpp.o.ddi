@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "_deps/ktx-build/CMakeFiles/ktx.dir/external/basisu/encoder/basisu_gpu_texture.cpp.o"
+    }
+  ],
+  "version": 1
+}

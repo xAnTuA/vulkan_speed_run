@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "_deps/ktx-build/CMakeFiles/ktx.dir/lib/etcunpack.cxx.o"
+    }
+  ],
+  "version": 1
+}

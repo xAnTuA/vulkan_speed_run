@@ -1,0 +1,49 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/VulkanCppModule.dir/home/antua/Downloads/vulkan/1.4.350.1/x86_64/include/vulkan/vulkan.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : [],
+			"compile-options" : [],
+			"definitions" : 
+			[
+				"VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1",
+				"VULKAN_HPP_NO_STRUCT_CONSTRUCTORS=1"
+			],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"/home/antua/Downloads/vulkan/1.4.350.1/x86_64/include"
+			],
+			"name" : "cxx_modules",
+			"relative-directory" : "vulkan",
+			"source" : "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/include/vulkan/vulkan.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang",
+	"dir-cur-src" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle",
+	"dir-top-bld" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang",
+	"dir-top-src" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/home/antua/Downloads/vulkan/1.4.350.1/x86_64/include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/@cmake_cxx_std.dir"
+	],
+	"module-dir" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/VulkanCppModule.dir",
+	"sources" : {}
+}

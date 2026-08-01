@@ -1,0 +1,39 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-build/interface/basisu_c_binding",
+	"dir-cur-src" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/interface/basisu_c_binding",
+	"dir-top-bld" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang",
+	"dir-top-src" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps/ktx-src/interface/basisu_c_binding/inc",
+		"_deps/ktx-src/external/basisu/transcoder",
+		"_deps/ktx-src/include",
+		"_deps/ktx-src/external",
+		"_deps/ktx-src/external/basisu/zstd",
+		"_deps/ktx-src/utils",
+		"_deps/ktx-src/other_include",
+		"_deps/ktx-src/external/dfdutils",
+		"_deps/ktx-src/external/basisu",
+		"_deps/ktx-src/external/astc-encoder/Source"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-build/interface/basisu_c_binding/CMakeFiles/obj_basisu_cbind.dir",
+	"sources" : 
+	{
+		"_deps/ktx-build/interface/basisu_c_binding/CMakeFiles/obj_basisu_cbind.dir/src/basisu_c_binding.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/interface/basisu_c_binding/src/basisu_c_binding.cpp"
+		}
+	}
+}
