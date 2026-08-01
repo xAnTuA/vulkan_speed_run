@@ -32,3 +32,5 @@ that was actually wrong idea, because solution to this is:
 set(CMAKE_EXPERIMENTAL_CXX_IMPORT_STD f35a9ac6-8463-4d38-8eec-5d6008153e7d)
 
 tho this is experimental, i believe in future we shall get better support for it
+
+i have taken a while to create better common setup for cmake
