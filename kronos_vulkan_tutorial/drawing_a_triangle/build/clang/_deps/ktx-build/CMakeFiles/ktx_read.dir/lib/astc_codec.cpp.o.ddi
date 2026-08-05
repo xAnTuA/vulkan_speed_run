@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "_deps/ktx-build/CMakeFiles/ktx_read.dir/lib/astc_codec.cpp.o"
-    }
-  ],
-  "version": 1
-}

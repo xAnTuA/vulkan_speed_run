@@ -4,7 +4,34 @@
 	"compiler-id" : "Clang",
 	"compiler-simulate-id" : "",
 	"config" : "Debug",
-	"cxx-modules" : {},
+	"cxx-modules" : 
+	{
+		"CMakeFiles/VulkanTutorial.dir/src/engine.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : [],
+			"compile-options" : [],
+			"definitions" : 
+			[
+				"USE_CPP20_MODULES=1",
+				"VULKAN_HPP_HANDLE_ERROR_OUT_OF_DATE_AS_SUCCESS",
+				"VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1",
+				"VULKAN_HPP_NO_STRUCT_CONSTRUCTORS=1"
+			],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"/usr/include/stb",
+				"/home/antua/Downloads/vulkan/1.4.350.1/x86_64/include",
+				"/usr/include"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "src",
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/src/engine.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
 	"database-info" : null,
 	"dir-cur-bld" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang",
 	"dir-cur-src" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle",
@@ -26,10 +53,10 @@
 	"module-dir" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/VulkanTutorial.dir",
 	"sources" : 
 	{
-		"CMakeFiles/VulkanTutorial.dir/main.cpp.o" : 
+		"CMakeFiles/VulkanTutorial.dir/src/main.cpp.o" : 
 		{
 			"language" : "CXX",
-			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/main.cpp"
+			"source" : "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/src/main.cpp"
 		}
 	}
 }

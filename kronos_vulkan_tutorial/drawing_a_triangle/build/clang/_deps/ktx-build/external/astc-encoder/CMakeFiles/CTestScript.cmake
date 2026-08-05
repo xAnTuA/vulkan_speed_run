@@ -2,7 +2,7 @@
 # If you choose not to use CMake, this file may be hand configured, by
 # filling in the required variables.
 
-cmake_minimum_required(VERSION 4.4.1)
+cmake_minimum_required(VERSION 4.4.2)
 
 # CTest Start Step
 set(CTEST_SOURCE_DIRECTORY "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/_deps/ktx-src/external/astc-encoder")

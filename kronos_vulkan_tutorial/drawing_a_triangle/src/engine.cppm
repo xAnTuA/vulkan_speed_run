@@ -14,25 +14,31 @@ namespace engine{
     }
   private:
     GLFWwindow *window = nullptr;
+    vk::raii::Context  context;
+    vk::raii::Instance instance = nullptr;
+
+    void createInstance(){
+      constexpr vk::ApplicationInfo appInfo{.pApplicationName = "Hello triangle",
+        .applicationVersion = vk::makeApiVersion(1,0,0,0),
+        .pEngineName = " no engine",
+        .engineVersion = vk::makeApiVersion(1,0,0,0),
+        .apiVersion = vk::ApiVersion14};
+    }
 
     void initWindow(){
       glfwInit();
       glfwWindowHint(GLFW_CLIENT_API,GLFW_NO_API);
-      glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE)
+      glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 
       window = glfwCreateWindow(800, 700, "Vulkan", nullptr, nullptr);
     }
 
     void initVulkan(){
-      constexpr vk::ApplicationInfo appInfo{.pApplicationName = "Hello triangle",
-        .applicationVersion = VK_MAKE_VERSION(1,0,0),
-        .pEngineName = " no engine",
-        .engineVersion = VK_MAKE_VERSION(1,0,0),
-        .apiVersion = vk::ApiVersion14};
+      createInstance();
 
-      vk::InstanceCreateInfo createInfo{
-        .pApplicationInfo = &appInfo
-      };
+      // vk::InstanceCreateInfo createInfo{
+      //   .pApplicationInfo = &appInfo
+      // };
     }
     void mainLoop(){
       while(!glfwWindowShouldClose(window)){

@@ -1,10 +1,11 @@
 cmake_minimum_required (VERSION 4.4.1)
+
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 include(Common)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set (TEMPLATE_NAME "VulkanTutorial")
-
 project (${TEMPLATE_NAME} LANGUAGES CXX)
 
 # Add option to enable/disable C++ 20 module
@@ -29,17 +30,6 @@ find_package(KTX REQUIRED)
   target_link_libraries(VulkanCppModule PUBLIC Vulkan::Vulkan)
 
 
-  # Add MSVC-specific compiler options for proper C++ module support
-  if(MSVC)
-    target_compile_options(VulkanCppModule PRIVATE
-      /std:c++latest      # Use latest C++ standard for better module support
-      /permissive-        # Standards conformance mode
-      /Zc:__cplusplus     # Enable correct __cplusplus macro
-      /EHsc               # Enable C++ exception handling
-      /Zc:preprocessor    # Use conforming preprocessor
-    )
-  endif()
-
   target_sources(VulkanCppModule
     PUBLIC
     FILE_SET cxx_modules TYPE CXX_MODULES
@@ -48,18 +38,18 @@ find_package(KTX REQUIRED)
     FILES
     "${Vulkan_INCLUDE_DIR}/vulkan/vulkan.cppm"
   )
-set_property(TARGET VulkanCppModule PROPERTY CXX_MODULE_STD ON)
-enable_modules(VulkanCppModule)
 
+enable_modules(VulkanCppModule)
 find_package(stb REQUIRED)
 set(STB_INCLUDEDIR ${stb_INCLUDE_DIRS})
 
 find_program(SLANGC_EXECUTABLE slangc HINTS $ENV{VULKAN_SDK}/bin REQUIRED)
 
 set(TEMPLATE_DIR ${CMAKE_BINARY_DIR}/${TEMPLATE_NAME})
+add_executable (${TEMPLATE_NAME})
+enable_src(${TEMPLATE_NAME})
+enable_modules(${TEMPLATE_NAME})
 
-add_executable (${TEMPLATE_NAME} main.cpp)
-set_property(TARGET ${TEMPLATE_NAME} PROPERTY CXX_MODULE_STD ON)
 set_target_properties (${TEMPLATE_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${TEMPLATE_DIR})
 target_link_libraries (${TEMPLATE_NAME} Vulkan::cppm glfw)
 target_include_directories (${TEMPLATE_NAME} PRIVATE ${STB_INCLUDEDIR})
@@ -72,13 +62,7 @@ endif()
 # Define VULKAN_HPP_HANDLE_ERROR_OUT_OF_DATE_AS_SUCCESS to treat VK_ERROR_OUT_OF_DATE_KHR as a success code
 target_compile_definitions(${TEMPLATE_NAME} PRIVATE "VULKAN_HPP_HANDLE_ERROR_OUT_OF_DATE_AS_SUCCESS" )
 
-if(WIN32)
-  if(${CMAKE_GENERATOR} MATCHES "Visual Studio.*")
-    set_target_properties(${TEMPLATE_NAME} PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY ${TEMPLATE_DIR})
-  endif()
-endif()
-
-# # Slang shader
+# Slang shader
 # set (SHADER_TARGET ${TEMPLATE_NAME}Shader)
 # set (SHADERS_DIR ${TEMPLATE_DIR}/shaders)
 # set (SHADER_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/shader.slang")

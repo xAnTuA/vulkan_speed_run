@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "_deps/ktx-build/interface/basisu_c_binding/CMakeFiles/obj_basisu_cbind.dir/src/basisu_c_binding.cpp.o"
-    }
-  ],
-  "version": 1
-}

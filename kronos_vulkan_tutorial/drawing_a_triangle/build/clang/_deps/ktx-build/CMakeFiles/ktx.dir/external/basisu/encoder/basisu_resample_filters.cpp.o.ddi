@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "_deps/ktx-build/CMakeFiles/ktx.dir/external/basisu/encoder/basisu_resample_filters.cpp.o"
-    }
-  ],
-  "version": 1
-}

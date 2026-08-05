@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "_deps/ktx-build/CMakeFiles/ktx_read.dir/external/etcdec/etcdec.cxx.o"
-    }
-  ],
-  "version": 1
-}

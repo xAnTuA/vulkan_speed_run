@@ -1,3 +1,0 @@
-set_property(TARGET "KTX::ktx"
-  PROPERTY IMPORTED_CXX_MODULES_DEBUG
-)

@@ -1,3 +1,0 @@
-ninja_dyndep_version = 1.0
-build _deps/ktx-build/CMakeFiles/objUtil.dir/utils/argparser.cpp.o: dyndep
-

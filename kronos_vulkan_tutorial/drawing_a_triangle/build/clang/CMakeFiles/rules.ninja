@@ -427,6 +427,15 @@ rule RERUN_CMAKE
 
 
 #############################################
+# Rule for re-checking globbed directories.
+
+rule VERIFY_GLOBS
+  command = /usr/sbin/cmake -P /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/VerifyGlobs.cmake
+  description = Re-checking globbed directories...
+  generator = 1
+
+
+#############################################
 # Rule for cleaning all built files.
 
 rule CLEAN

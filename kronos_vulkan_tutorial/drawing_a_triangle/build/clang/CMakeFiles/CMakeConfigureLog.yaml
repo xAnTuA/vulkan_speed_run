@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -27,6 +27,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -47,6 +48,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/uname"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/uname"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/uname"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/uname"
       - "/home/antua/.local/share/nvim/mason/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
@@ -57,7 +59,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -73,14 +79,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     message: |
       The system is: Linux - 7.1.5-arch1-2 - x86_64
   -
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Program used to build from build.ninja files."
@@ -104,6 +110,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -138,6 +145,9 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/ninja-build"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/ninja"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/samu"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/ninja-build"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/ninja"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/samu"
       - "/home/antua/.local/share/nvim/mason/bin/ninja-build"
       - "/home/antua/.local/share/nvim/mason/bin/ninja"
       - "/home/antua/.local/share/nvim/mason/bin/samu"
@@ -155,7 +165,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -172,7 +186,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_WITH_PATH"
     description: "Path to a program."
@@ -194,6 +208,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -214,6 +229,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/clang++"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/clang++"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang++"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang++"
       - "/home/antua/.local/share/nvim/mason/bin/clang++"
       - "/usr/local/sbin/clang++"
       - "/usr/local/bin/clang++"
@@ -224,7 +240,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -244,7 +264,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -268,7 +288,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -286,7 +310,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /usr/sbin/clang++ 
@@ -300,14 +324,14 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is Clang, found in:
-        /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/4.4.1/CompilerIdCXX/a.out
+        /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/4.4.2/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -325,6 +349,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -343,7 +368,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -360,7 +389,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -378,6 +407,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -396,7 +426,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -413,7 +447,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -431,6 +465,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -449,7 +484,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -466,7 +505,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -484,6 +523,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -502,7 +542,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -519,7 +563,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -537,6 +581,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -555,7 +600,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -572,7 +621,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -590,6 +639,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -608,7 +658,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -625,7 +679,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -643,6 +697,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -661,7 +716,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -678,7 +737,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -696,6 +755,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -714,7 +774,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -731,7 +795,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -749,6 +813,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -767,7 +832,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -784,7 +853,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -802,6 +871,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -820,7 +890,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -837,7 +911,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -854,6 +928,7 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -868,6 +943,7 @@ events:
     searched_directories:
       - "/usr/sbin/tapi"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tapi"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tapi"
       - "/home/antua/.local/share/nvim/mason/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
@@ -886,7 +962,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -903,7 +983,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "LLVM archiver"
@@ -924,6 +1004,7 @@ events:
       - "/usr/bin/"
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -938,6 +1019,7 @@ events:
       - "/usr/bin/llvm-ar-22.1"
       - "/usr/sbin/llvm-ar-22.1"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ar-22.1"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ar-22.1"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ar-22.1"
       - "/usr/local/sbin/llvm-ar-22.1"
       - "/usr/local/bin/llvm-ar-22.1"
@@ -951,6 +1033,7 @@ events:
       - "/usr/bin/llvm-ar-22"
       - "/usr/sbin/llvm-ar-22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ar-22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ar-22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ar-22"
       - "/usr/local/sbin/llvm-ar-22"
       - "/usr/local/bin/llvm-ar-22"
@@ -964,6 +1047,7 @@ events:
       - "/usr/bin/llvm-ar22"
       - "/usr/sbin/llvm-ar22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ar22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ar22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ar22"
       - "/usr/local/sbin/llvm-ar22"
       - "/usr/local/bin/llvm-ar22"
@@ -981,7 +1065,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -998,7 +1086,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "Generate index for LLVM archive"
@@ -1019,6 +1107,7 @@ events:
       - "/usr/bin/"
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1033,6 +1122,7 @@ events:
       - "/usr/bin/llvm-ranlib-22.1"
       - "/usr/sbin/llvm-ranlib-22.1"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ranlib-22.1"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ranlib-22.1"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ranlib-22.1"
       - "/usr/local/sbin/llvm-ranlib-22.1"
       - "/usr/local/bin/llvm-ranlib-22.1"
@@ -1046,6 +1136,7 @@ events:
       - "/usr/bin/llvm-ranlib-22"
       - "/usr/sbin/llvm-ranlib-22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ranlib-22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ranlib-22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ranlib-22"
       - "/usr/local/sbin/llvm-ranlib-22"
       - "/usr/local/bin/llvm-ranlib-22"
@@ -1059,6 +1150,7 @@ events:
       - "/usr/bin/llvm-ranlib22"
       - "/usr/sbin/llvm-ranlib22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ranlib22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ranlib22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ranlib22"
       - "/usr/local/sbin/llvm-ranlib22"
       - "/usr/local/bin/llvm-ranlib22"
@@ -1076,7 +1168,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1093,7 +1189,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
     description: "`clang-scan-deps` dependency scanner"
@@ -1118,6 +1214,7 @@ events:
       - "/usr/bin/"
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1132,6 +1229,7 @@ events:
       - "/usr/bin/clang-scan-deps-22.1"
       - "/usr/sbin/clang-scan-deps-22.1"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang-scan-deps-22.1"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang-scan-deps-22.1"
       - "/home/antua/.local/share/nvim/mason/bin/clang-scan-deps-22.1"
       - "/usr/local/sbin/clang-scan-deps-22.1"
       - "/usr/local/bin/clang-scan-deps-22.1"
@@ -1145,6 +1243,7 @@ events:
       - "/usr/bin/clang-scan-deps-22"
       - "/usr/sbin/clang-scan-deps-22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang-scan-deps-22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang-scan-deps-22"
       - "/home/antua/.local/share/nvim/mason/bin/clang-scan-deps-22"
       - "/usr/local/sbin/clang-scan-deps-22"
       - "/usr/local/bin/clang-scan-deps-22"
@@ -1158,6 +1257,7 @@ events:
       - "/usr/bin/clang-scan-deps22"
       - "/usr/sbin/clang-scan-deps22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang-scan-deps22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang-scan-deps22"
       - "/home/antua/.local/share/nvim/mason/bin/clang-scan-deps22"
       - "/usr/local/sbin/clang-scan-deps22"
       - "/usr/local/bin/clang-scan-deps22"
@@ -1175,7 +1275,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1192,12 +1296,12 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94"
-      binary: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94"
+      source: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI"
+      binary: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -1211,10 +1315,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94'
+        Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI'
         
-        Run Build Command(s): /usr/sbin/ninja -v cmTC_e81a1
-        [1/2] /usr/sbin/clang++   -std=c++26   -v -MD -MT CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_8e320
+        [1/2] /usr/sbin/clang++   -std=c++26   -v -MD -MT CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang version 22.1.8
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -1229,7 +1333,7 @@ events:
         Selected multilib: .;@m64
         Found CUDA installation: /opt/cuda, version 
          (in-process)
-         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94 -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94 -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++26 -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++26 -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -1242,7 +1346,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/sbin/clang++  -v -Wl,-v CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e81a1   && :
+        [2/2] : && /usr/sbin/clang++  -v -Wl,-v CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8e320   && :
         clang version 22.1.8
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -1256,7 +1360,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
         Found CUDA installation: /opt/cuda, version 
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e81a1 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e320 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.47
         
       exitCode: 0
@@ -1265,7 +1369,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -1291,15 +1395,15 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94']
+        ignore line: [Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_e81a1]
-        ignore line: [[1/2] /usr/sbin/clang++   -std=c++26   -v -MD -MT CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_8e320]
+        ignore line: [[1/2] /usr/sbin/clang++   -std=c++26   -v -MD -MT CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 22.1.8]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1317,7 +1421,7 @@ events:
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /opt/cuda  version ]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94 -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-MGFu94 -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++26 -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-5dfIxI -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++26 -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -1330,7 +1434,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/sbin/clang++  -v -Wl -v CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e81a1   && :]
+        ignore line: [[2/2] : && /usr/sbin/clang++  -v -Wl -v CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8e320   && :]
         ignore line: [clang version 22.1.8]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1347,9 +1451,9 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /opt/cuda  version ]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e81a1 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e81a1 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e81a1 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e320 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e320 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e320 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -1360,7 +1464,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e81a1] ==> ignore
+          arg [cmTC_8e320] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -1371,7 +1475,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e81a1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_8e320.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1405,7 +1509,7 @@ events:
       - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:8 (project)"
+      - "CMakeLists.txt:9 (project)"
     message: |
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.47
@@ -1419,12 +1523,12 @@ events:
       - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/usr/lib/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
-      - "CMakeLists.txt:15 (find_package)"
+      - "CMakeLists.txt:16 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-Hh3GRP"
-      binary: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-Hh3GRP"
+      source: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-0U3fql"
+      binary: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-0U3fql"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -1438,19 +1542,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-Hh3GRP'
+        Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-0U3fql'
         
-        Run Build Command(s): /usr/sbin/ninja -v cmTC_c442c
-        [1/4] "/usr/bin/clang-scan-deps" -format=p1689 -- /usr/sbin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++26 -x c++ /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-Hh3GRP/src.cxx -c -o CMakeFiles/cmTC_c442c.dir/src.cxx.o -resource-dir "/usr/lib/clang/22" -MT CMakeFiles/cmTC_c442c.dir/src.cxx.o.ddi -MD -MF CMakeFiles/cmTC_c442c.dir/src.cxx.o.ddi.d > CMakeFiles/cmTC_c442c.dir/src.cxx.o.ddi.tmp && mv CMakeFiles/cmTC_c442c.dir/src.cxx.o.ddi.tmp CMakeFiles/cmTC_c442c.dir/src.cxx.o.ddi
-        [2/4] /usr/sbin/cmake -E cmake_ninja_dyndep --tdi=CMakeFiles/cmTC_c442c.dir/CXXDependInfo.json --lang=CXX --modmapfmt=clang --dd=CMakeFiles/cmTC_c442c.dir/CXX.dd @CMakeFiles/cmTC_c442c.dir/CXX.dd.rsp
-        [3/4] /usr/sbin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++26 -MD -MT CMakeFiles/cmTC_c442c.dir/src.cxx.o -MF CMakeFiles/cmTC_c442c.dir/src.cxx.o.d @CMakeFiles/cmTC_c442c.dir/src.cxx.o.modmap -o CMakeFiles/cmTC_c442c.dir/src.cxx.o -c /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-Hh3GRP/src.cxx
-        [4/4] : && /usr/sbin/clang++   CMakeFiles/cmTC_c442c.dir/src.cxx.o -o cmTC_c442c   && :
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_ffba4
+        [1/4] "/usr/bin/clang-scan-deps" -format=p1689 -- /usr/sbin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++26 -x c++ /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-0U3fql/src.cxx -c -o CMakeFiles/cmTC_ffba4.dir/src.cxx.o -resource-dir "/usr/lib/clang/22" -MT CMakeFiles/cmTC_ffba4.dir/src.cxx.o.ddi -MD -MF CMakeFiles/cmTC_ffba4.dir/src.cxx.o.ddi.d > CMakeFiles/cmTC_ffba4.dir/src.cxx.o.ddi.tmp && mv CMakeFiles/cmTC_ffba4.dir/src.cxx.o.ddi.tmp CMakeFiles/cmTC_ffba4.dir/src.cxx.o.ddi
+        [2/4] /usr/sbin/cmake -E cmake_ninja_dyndep --tdi=CMakeFiles/cmTC_ffba4.dir/CXXDependInfo.json --lang=CXX --modmapfmt=clang --dd=CMakeFiles/cmTC_ffba4.dir/CXX.dd @CMakeFiles/cmTC_ffba4.dir/CXX.dd.rsp
+        [3/4] /usr/sbin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++26 -MD -MT CMakeFiles/cmTC_ffba4.dir/src.cxx.o -MF CMakeFiles/cmTC_ffba4.dir/src.cxx.o.d @CMakeFiles/cmTC_ffba4.dir/src.cxx.o.modmap -o CMakeFiles/cmTC_ffba4.dir/src.cxx.o -c /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-0U3fql/src.cxx
+        [4/4] : && /usr/sbin/clang++   CMakeFiles/cmTC_ffba4.dir/src.cxx.o -o cmTC_ffba4   && :
         
       exitCode: 0
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:15 (find_package)"
+      - "CMakeLists.txt:16 (find_package)"
     name: "glfw3"
     configs:
       -
@@ -1534,6 +1638,22 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/home/antua/.local/share/gem/ruby/3.4.0/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/antua/.local/share/gem/ruby/3.4.0/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/antua/.local/share/gem/ruby/3.4.0/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/antua/.local/share/gem/ruby/3.4.0/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/home/antua/.local/share/nvim/mason/glfw3Config.cmake"
         mode: "config"
         reason: "no_exist"
@@ -1584,14 +1704,18 @@ events:
     found:
       path: "/usr/lib/cmake/glfw3/glfw3Config.cmake"
       mode: "config"
-      version: "3.4.0"
+      version: "3.5.1"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64"
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1621,7 +1745,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findglm.cmake:16 (find_package)"
-      - "CMakeLists.txt:16 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "program"
     variable: "PKG_CONFIG_EXECUTABLE"
     description: "pkg-config executable"
@@ -1644,6 +1768,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1688,6 +1813,8 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/pkgconf"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/pkg-config"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/pkgconf"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/pkg-config"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/pkgconf"
       - "/home/antua/.local/share/nvim/mason/bin/pkg-config"
       - "/home/antua/.local/share/nvim/mason/bin/pkgconf"
       - "/usr/local/sbin/pkg-config"
@@ -1701,7 +1828,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1727,7 +1858,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findglm.cmake:22 (find_path)"
-      - "CMakeLists.txt:16 (find_package)"
+      - "CMakeLists.txt:17 (find_package)"
     mode: "path"
     variable: "glm_INCLUDE_DIR"
     description: "Path to a file."
@@ -1752,6 +1883,8 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/glm/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/glm/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/glm/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/glm/"
@@ -1829,6 +1962,8 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/glm/glm.hpp"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/glm/glm/glm.hpp"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/glm/glm.hpp"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/glm/glm/glm.hpp"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/glm/glm.hpp"
       - "/home/antua/.local/share/nvim/mason/bin/glm/glm/glm.hpp"
       - "/home/antua/.local/share/nvim/mason/bin/glm/glm.hpp"
       - "/usr/local/sbin/glm/glm/glm.hpp"
@@ -1865,7 +2000,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1893,7 +2032,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:309 (find_path)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -1914,6 +2053,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/include/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1945,7 +2085,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1973,7 +2117,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:317 (find_library)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -1994,6 +2138,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/lib/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2028,7 +2173,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2056,7 +2205,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:325 (find_library)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "library"
     variable: "Vulkan_Layer_API_DUMP"
     description: "Path to a library."
@@ -2077,6 +2226,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/lib/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2108,7 +2258,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2136,7 +2290,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:332 (find_library)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "library"
     variable: "Vulkan_Layer_SHADER_OBJECT"
     description: "Path to a library."
@@ -2157,6 +2311,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/lib/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2188,7 +2343,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2216,7 +2375,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:339 (find_library)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "library"
     variable: "Vulkan_Layer_SYNC2"
     description: "Path to a library."
@@ -2237,6 +2396,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/lib/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2268,7 +2428,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2296,7 +2460,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:346 (find_library)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "library"
     variable: "Vulkan_Layer_VALIDATION"
     description: "Path to a library."
@@ -2317,6 +2481,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/lib/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2348,7 +2513,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2376,7 +2545,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:354 (find_program)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -2399,6 +2568,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/bin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2434,7 +2604,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2460,7 +2634,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindVulkan.cmake:362 (find_program)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -2483,6 +2657,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/bin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2518,7 +2693,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2548,7 +2727,7 @@ events:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findtinyobjloader.cmake:15 (pkg_check_modules)"
-      - "CMakeLists.txt:18 (find_package)"
+      - "CMakeLists.txt:19 (find_package)"
     mode: "library"
     variable: "pkgcfg_lib_PC_tinyobjloader_tinyobjloader"
     description: "Path to a library."
@@ -2571,7 +2750,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2599,7 +2782,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findtinyobjloader.cmake:19 (find_path)"
-      - "CMakeLists.txt:18 (find_package)"
+      - "CMakeLists.txt:19 (find_package)"
     mode: "path"
     variable: "tinyobjloader_INCLUDE_DIR"
     description: "Path to a file."
@@ -2629,6 +2812,9 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tinyobjloader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tiny_obj_loader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tinyobjloader/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tiny_obj_loader/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/tinyobjloader/"
       - "/home/antua/.local/share/nvim/mason/bin/tiny_obj_loader/"
       - "/home/antua/.local/share/nvim/mason/bin/"
@@ -2744,6 +2930,9 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tinyobjloader/tiny_obj_loader.h"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tiny_obj_loader/tiny_obj_loader.h"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tiny_obj_loader.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tinyobjloader/tiny_obj_loader.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tiny_obj_loader/tiny_obj_loader.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tiny_obj_loader.h"
       - "/home/antua/.local/share/nvim/mason/bin/tinyobjloader/tiny_obj_loader.h"
       - "/home/antua/.local/share/nvim/mason/bin/tiny_obj_loader/tiny_obj_loader.h"
       - "/home/antua/.local/share/nvim/mason/bin/tiny_obj_loader.h"
@@ -2795,7 +2984,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2823,7 +3016,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findtinyobjloader.cmake:39 (find_library)"
-      - "CMakeLists.txt:18 (find_package)"
+      - "CMakeLists.txt:19 (find_package)"
     mode: "library"
     variable: "tinyobjloader_LIBRARY"
     description: "Path to a library."
@@ -2848,6 +3041,8 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/lib/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/lib/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/lib/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/lib/"
@@ -2925,6 +3120,8 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/lib/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/lib/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/lib/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/lib/"
@@ -2961,7 +3158,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2990,7 +3191,7 @@ events:
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findnlohmann_json.cmake:22 (find_path)"
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findtinygltf.cmake:16 (find_package)"
-      - "CMakeLists.txt:19 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "nlohmann_json_INCLUDE_DIR"
     description: "Path to a file."
@@ -3021,6 +3222,9 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/nlohmann/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/json/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/nlohmann/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/json/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/nlohmann/"
       - "/home/antua/.local/share/nvim/mason/bin/json/"
       - "/home/antua/.local/share/nvim/mason/bin/"
@@ -3136,6 +3340,9 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/nlohmann/nlohmann/json.hpp"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/json/nlohmann/json.hpp"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/nlohmann/json.hpp"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/nlohmann/nlohmann/json.hpp"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/json/nlohmann/json.hpp"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/nlohmann/json.hpp"
       - "/home/antua/.local/share/nvim/mason/bin/nlohmann/nlohmann/json.hpp"
       - "/home/antua/.local/share/nvim/mason/bin/json/nlohmann/json.hpp"
       - "/home/antua/.local/share/nvim/mason/bin/nlohmann/json.hpp"
@@ -3187,7 +3394,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3215,7 +3426,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findtinygltf.cmake:29 (find_path)"
-      - "CMakeLists.txt:19 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "tinygltf_INCLUDE_DIR"
     description: "Path to a file."
@@ -3245,6 +3456,9 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tinygltf/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/include/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tinygltf/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/include/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/tinygltf/"
       - "/home/antua/.local/share/nvim/mason/bin/include/"
       - "/home/antua/.local/share/nvim/mason/bin/"
@@ -3360,6 +3574,9 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tinygltf/tiny_gltf.h"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/include/tiny_gltf.h"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/tiny_gltf.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tinygltf/tiny_gltf.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/include/tiny_gltf.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/tiny_gltf.h"
       - "/home/antua/.local/share/nvim/mason/bin/tinygltf/tiny_gltf.h"
       - "/home/antua/.local/share/nvim/mason/bin/include/tiny_gltf.h"
       - "/home/antua/.local/share/nvim/mason/bin/tiny_gltf.h"
@@ -3409,7 +3626,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3444,7 +3665,7 @@ events:
       - "/usr/share/cmake/Modules/FetchContent.cmake:2160 (cmake_language)"
       - "/usr/share/cmake/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/FindKTX.cmake:98 (FetchContent_MakeAvailable)"
-      - "CMakeLists.txt:20 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     mode: "program"
     variable: "GIT_EXECUTABLE"
     description: "Git command line client"
@@ -3466,6 +3687,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -3503,6 +3725,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/git"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/git"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/git"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/git"
       - "/home/antua/.local/share/nvim/mason/bin/git"
       - "/usr/local/sbin/git"
       - "/usr/local/bin/git"
@@ -3513,7 +3736,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3595,7 +3822,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3644,6 +3875,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -3681,6 +3913,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/clang"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/clang"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang"
       - "/home/antua/.local/share/nvim/mason/bin/clang"
       - "/usr/local/sbin/clang"
       - "/usr/local/bin/clang"
@@ -3691,7 +3924,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3747,7 +3984,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3791,7 +4032,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is Clang, found in:
-        /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/4.4.1/CompilerIdC/a.out
+        /home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/4.4.2/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -3819,6 +4060,7 @@ events:
       - "/usr/bin/"
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -3850,6 +4092,7 @@ events:
       - "/usr/bin/llvm-ar-22.1"
       - "/usr/sbin/llvm-ar-22.1"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ar-22.1"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ar-22.1"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ar-22.1"
       - "/usr/local/sbin/llvm-ar-22.1"
       - "/usr/local/bin/llvm-ar-22.1"
@@ -3880,6 +4123,7 @@ events:
       - "/usr/bin/llvm-ar-22"
       - "/usr/sbin/llvm-ar-22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ar-22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ar-22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ar-22"
       - "/usr/local/sbin/llvm-ar-22"
       - "/usr/local/bin/llvm-ar-22"
@@ -3910,6 +4154,7 @@ events:
       - "/usr/bin/llvm-ar22"
       - "/usr/sbin/llvm-ar22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ar22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ar22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ar22"
       - "/usr/local/sbin/llvm-ar22"
       - "/usr/local/bin/llvm-ar22"
@@ -3944,7 +4189,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3992,6 +4241,7 @@ events:
       - "/usr/bin/"
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -4023,6 +4273,7 @@ events:
       - "/usr/bin/llvm-ranlib-22.1"
       - "/usr/sbin/llvm-ranlib-22.1"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ranlib-22.1"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ranlib-22.1"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ranlib-22.1"
       - "/usr/local/sbin/llvm-ranlib-22.1"
       - "/usr/local/bin/llvm-ranlib-22.1"
@@ -4053,6 +4304,7 @@ events:
       - "/usr/bin/llvm-ranlib-22"
       - "/usr/sbin/llvm-ranlib-22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ranlib-22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ranlib-22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ranlib-22"
       - "/usr/local/sbin/llvm-ranlib-22"
       - "/usr/local/bin/llvm-ranlib-22"
@@ -4083,6 +4335,7 @@ events:
       - "/usr/bin/llvm-ranlib22"
       - "/usr/sbin/llvm-ranlib22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/llvm-ranlib22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/llvm-ranlib22"
       - "/home/antua/.local/share/nvim/mason/bin/llvm-ranlib22"
       - "/usr/local/sbin/llvm-ranlib22"
       - "/usr/local/bin/llvm-ranlib22"
@@ -4117,7 +4370,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4169,6 +4426,7 @@ events:
       - "/usr/bin/"
       - "/usr/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -4200,6 +4458,7 @@ events:
       - "/usr/bin/clang-scan-deps-22.1"
       - "/usr/sbin/clang-scan-deps-22.1"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang-scan-deps-22.1"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang-scan-deps-22.1"
       - "/home/antua/.local/share/nvim/mason/bin/clang-scan-deps-22.1"
       - "/usr/local/sbin/clang-scan-deps-22.1"
       - "/usr/local/bin/clang-scan-deps-22.1"
@@ -4230,6 +4489,7 @@ events:
       - "/usr/bin/clang-scan-deps-22"
       - "/usr/sbin/clang-scan-deps-22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang-scan-deps-22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang-scan-deps-22"
       - "/home/antua/.local/share/nvim/mason/bin/clang-scan-deps-22"
       - "/usr/local/sbin/clang-scan-deps-22"
       - "/usr/local/bin/clang-scan-deps-22"
@@ -4260,6 +4520,7 @@ events:
       - "/usr/bin/clang-scan-deps22"
       - "/usr/sbin/clang-scan-deps22"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/clang-scan-deps22"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/clang-scan-deps22"
       - "/home/antua/.local/share/nvim/mason/bin/clang-scan-deps22"
       - "/usr/local/sbin/clang-scan-deps22"
       - "/usr/local/bin/clang-scan-deps22"
@@ -4294,7 +4555,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4325,8 +4590,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW"
-      binary: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW"
+      source: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M"
+      binary: "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_CXX_SCAN_FOR_MODULES: "ON"
@@ -4340,10 +4605,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW'
+        Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M'
         
-        Run Build Command(s): /usr/sbin/ninja -v cmTC_5f9c8
-        [1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_07f5e
+        [1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang version 22.1.8
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -4358,7 +4623,7 @@ events:
         Selected multilib: .;@m64
         Found CUDA installation: /opt/cuda, version 
          (in-process)
-         "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+         "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -4368,7 +4633,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/sbin/clang  -v -Wl,-v CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -o cmTC_5f9c8   && :
+        [2/2] : && /usr/sbin/clang  -v -Wl,-v CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -o cmTC_07f5e   && :
         clang version 22.1.8
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -4382,7 +4647,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
         Found CUDA installation: /opt/cuda, version 
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5f9c8 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_07f5e /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.47
         
       exitCode: 0
@@ -4416,10 +4681,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW']
+        ignore line: [Change Dir: '/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_5f9c8]
-        ignore line: [[1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_07f5e]
+        ignore line: [[1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 22.1.8]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -4437,7 +4702,7 @@ events:
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /opt/cuda  version ]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-zv6fSW -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M -v -fcoverage-compilation-dir=/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/drawing_a_triangle/build/clang/CMakeFiles/CMakeScratch/TryCompile-quJJ3M -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -4447,7 +4712,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/sbin/clang  -v -Wl -v CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -o cmTC_5f9c8   && :]
+        ignore line: [[2/2] : && /usr/sbin/clang  -v -Wl -v CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -o cmTC_07f5e   && :]
         ignore line: [clang version 22.1.8]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -4464,9 +4729,9 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /opt/cuda  version ]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5f9c8 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5f9c8 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5f9c8 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_07f5e /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_07f5e /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_07f5e /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -4477,7 +4742,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5f9c8] ==> ignore
+          arg [cmTC_07f5e] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -4488,7 +4753,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5f9c8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_07f5e.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -4554,6 +4819,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -4591,6 +4857,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/git"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/git"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/git"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/git"
       - "/home/antua/.local/share/nvim/mason/bin/git"
       - "/usr/local/sbin/git"
       - "/usr/local/bin/git"
@@ -4601,7 +4868,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4654,6 +4925,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -4691,6 +4963,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/purify"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/purify"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/purify"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/purify"
       - "/home/antua/.local/share/nvim/mason/bin/purify"
       - "/usr/local/sbin/purify"
       - "/usr/local/bin/purify"
@@ -4727,6 +5000,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/valgrind"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/valgrind"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/valgrind"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/valgrind"
       - "/home/antua/.local/share/nvim/mason/bin/valgrind"
       - "/usr/local/sbin/valgrind"
       - "/usr/local/bin/valgrind"
@@ -4763,6 +5037,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/boundscheck"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/boundscheck"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/boundscheck"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/boundscheck"
       - "/home/antua/.local/share/nvim/mason/bin/boundscheck"
       - "/usr/local/sbin/boundscheck"
       - "/usr/local/bin/boundscheck"
@@ -4799,6 +5074,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/drmemory"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/drmemory"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/drmemory"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/drmemory"
       - "/home/antua/.local/share/nvim/mason/bin/drmemory"
       - "/usr/local/sbin/drmemory"
       - "/usr/local/bin/drmemory"
@@ -4835,6 +5111,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/cuda-memcheck"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/cuda-memcheck"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/cuda-memcheck"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/cuda-memcheck"
       - "/home/antua/.local/share/nvim/mason/bin/cuda-memcheck"
       - "/usr/local/sbin/cuda-memcheck"
       - "/usr/local/bin/cuda-memcheck"
@@ -4871,6 +5148,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/compute-sanitizer"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/compute-sanitizer"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/compute-sanitizer"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/compute-sanitizer"
       - "/home/antua/.local/share/nvim/mason/bin/compute-sanitizer"
       - "/usr/local/sbin/compute-sanitizer"
       - "/usr/local/bin/compute-sanitizer"
@@ -4885,7 +5163,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4933,6 +5215,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -4970,6 +5253,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/sbin/gcov"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/gcov"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/gcov"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/gcov"
       - "/home/antua/.local/share/nvim/mason/bin/gcov"
       - "/usr/local/sbin/gcov"
       - "/usr/local/bin/gcov"
@@ -4980,7 +5264,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5006,7 +5294,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/home/antua/Projects/vulkan_speed_run/kronos_vulkan_tutorial/CMake/Findstb.cmake:22 (find_path)"
-      - "CMakeLists.txt:54 (find_package)"
+      - "CMakeLists.txt:43 (find_package)"
     mode: "path"
     variable: "stb_INCLUDE_DIR"
     description: "Path to a file."
@@ -5031,6 +5319,8 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/stb/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/stb/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/stb/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/stb/"
@@ -5108,6 +5398,8 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/stb_image.h"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/stb/stb_image.h"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/stb_image.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/stb/stb_image.h"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/stb_image.h"
       - "/home/antua/.local/share/nvim/mason/bin/stb/stb_image.h"
       - "/home/antua/.local/share/nvim/mason/bin/stb_image.h"
       - "/usr/local/sbin/stb/stb_image.h"
@@ -5143,7 +5435,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5170,7 +5466,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:57 (find_program)"
+      - "CMakeLists.txt:46 (find_program)"
     mode: "program"
     variable: "SLANGC_EXECUTABLE"
     description: "Path to a program."
@@ -5193,6 +5489,7 @@ events:
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader/"
       - "/bin/"
       - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin/"
+      - "/home/antua/.local/share/gem/ruby/3.4.0/bin/"
       - "/home/antua/.local/share/nvim/mason/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5228,7 +5525,11 @@ events:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/lib/VulkanLoader"
       ENV{PATH}:
         - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/.local/share/gem/ruby/3.4.0/bin"
         - "/home/antua/.local/share/nvim/mason/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
+        - "/home/antua/Downloads/vulkan/1.4.350.1/x86_64/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"

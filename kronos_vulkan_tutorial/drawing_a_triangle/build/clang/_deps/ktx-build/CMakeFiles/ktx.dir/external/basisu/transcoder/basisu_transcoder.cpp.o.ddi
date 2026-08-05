@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "_deps/ktx-build/CMakeFiles/ktx.dir/external/basisu/transcoder/basisu_transcoder.cpp.o"
-    }
-  ],
-  "version": 1
-}

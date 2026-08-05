@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "_deps/ktx-build/CMakeFiles/objUtil.dir/utils/argparser.cpp.o"
-    }
-  ],
-  "version": 1
-}

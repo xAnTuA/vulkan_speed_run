@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "_deps/ktx-build/CMakeFiles/ktx.dir/lib/miniz_wrapper.cpp.o"
-    }
-  ],
-  "version": 1
-}
