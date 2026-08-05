@@ -31,3 +31,12 @@ Im not exceptionaly familliar with any of them, and whats actually behind that s
 In the end, from an speed run standpoint keeping the quality of knowledge, not the hours shall
 be seen as the metric of how fast i got there, but the time span between starting and ending
 (probably days). And then the hours/days should be an good metric.
+
+
+
+I was thinking about vulkan modules, and i tried to figure them out for more time than needed,
+as of now the support with clangd is akward, and for this tutorial is to much to deal with to just
+make things works. So I've cloned the template repo once again, and started in the layout as the
+tutorial gives it in. Im currently finished chapter Draving a triangle -> setup -> Instance.
+Tho I'm still doubtfull about this tutorial, as it tries to guide us in the complicated way,
+and thats not because api is hard, but the author i believe might have skill isue.
