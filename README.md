@@ -40,3 +40,6 @@ make things works. So I've cloned the template repo once again, and started in t
 tutorial gives it in. Im currently finished chapter Draving a triangle -> setup -> Instance.
 Tho I'm still doubtfull about this tutorial, as it tries to guide us in the complicated way,
 and thats not because api is hard, but the author i believe might have skill isue.
+
+I more less read the Validation layers, tho i copied the code, i still get the idea why it is
+introduced now
