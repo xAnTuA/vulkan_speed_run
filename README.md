@@ -43,3 +43,7 @@ and thats not because api is hard, but the author i believe might have skill isu
 
 I more less read the Validation layers, tho i copied the code, i still get the idea why it is
 introduced now
+
+Now i more less read the physical devices and queue families, Again i more less get the idea,
+and actually seeking how much of boiler plate there is I saved the trouble of writing it myself,
+at least for now
